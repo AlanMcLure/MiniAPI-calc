@@ -56,9 +56,6 @@
                 "operador": operacion
             }
 
-            console.log(op1);
-            console.log(calculator);
-
             fetch("http://localhost:8080/calc/calcula", {
                 method: 'POST',
                 body: JSON.stringify(calculator),
